@@ -16,6 +16,9 @@ body {
 .sidebar {
     background-color: var(--sidebar);
     grid-row: span 2;
+    display: grid;
+/*     grid-template-columns: 12.5% 12.5%;
+    grid-template-rows: ; */
 }
 
 .header {
@@ -26,6 +29,10 @@ body {
     background-color: var(--main);
 }
 
+/* sidebar styling */
 
+ul {
+    list-style: none;
+}
 
 
